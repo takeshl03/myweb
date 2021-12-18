@@ -1,0 +1,138 @@
+*,
+*:before *:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.clearfix{
+    clear:both;
+}
+
+.enter {
+    display: grid;
+    height: 80px;
+    width: 310px;
+    background: linear-gradient( #9365ff #6f3bff);
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    place-items: center;
+    font-family: "Poppins", sans-serif;
+    color: rgb(0, 5, 2);
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 5px;
+    border-radius: 5px;
+    border: solid 5px;
+    font-size: 20px;
+    
+}
+
+ h1{
+    font-size: 48px;
+    border-bottom: 3px solid #333;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    
+
+}
+.img{
+    margin-top: 20px;
+    text-align: center;
+    border: 2px solid #fff;
+}
+.img img{
+    height: 300px;
+    width: 300px;
+    background: #333;
+    border-radius: 10%;
+    margin: auto;
+    text-align: center;
+    
+}
+.text{
+    background: #fff;
+    font-size: 20px;
+    color: #333;
+    font-family: fantasy;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-sizing:0px 0px 5px 0px rgba(0,0,0,0.75) ;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    width: 650px;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+   
+    
+}
+.footer{
+    background: #333;
+    width: 650px;
+    height: 150px;
+    margin: 100px auto;
+    color: #fff;
+    font-size: 30px;
+}
+.text1{
+    font-size: 20px;
+}
+.next {
+    display: grid;
+    height: 40px;
+    width: 100px;
+    background: linear-gradient( #9365ff #6f3bff);
+    position: absolute;
+    margin: auto;
+    left: 5;
+    right: 0;
+    top: 10;
+    bottom: 2;
+    place-items: center;
+    font-family: "Poppins", sans-serif;
+    color: rgb(0, 5, 2);
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 2px;
+    border-radius: 2px;
+    border: solid 2px;
+    font-size: 20px;
+    
+}
+.container{
+    width: 960px;
+    margin: 0 auto;
+    background: purple;
+  
+}
+header{
+    text-align: center;
+    width: 870px;
+    height: 100px;
+    background: yellow;
+    margin: 0 auto;
+    font-size: 50px;
+    margin-top: 50px;
+}
+section{
+    margin-left: 41px;
+    text-align: center;
+    margin-top: 20px;
+    width: 545px;
+    height: 700px;
+    background: yellow;
+    float: left;
+    
+}
+aside{
+    width: 305px;
+    height: 700px;
+    background: yellow;
+    float: left;
+    margin-top: 20px;
+    margin-left: 25px;
+
+}
